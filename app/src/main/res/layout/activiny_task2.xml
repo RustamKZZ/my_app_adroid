@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green_light"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/String_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/String_1"
+        android:inputType="text"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/your_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/Name"
+        android:inputType="textPersonName"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/Phone_number"
+        android:inputType="phone"
+        android:shadowColor="#82E7F4"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/text_email_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/Email"
+        android:inputType="textEmailAddress"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/serial_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/Serial_number"
+        android:inputType="number"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/montserrat"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:textSize="14sp" />
+
+    <CalendarView
+        android:id="@+id/calendar"
+        android:layout_width="wrap_content"
+        android:layout_height="302dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp" />
+
+
+</LinearLayout>

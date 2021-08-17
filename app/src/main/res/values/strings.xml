@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">My Application for Android</string>
+    <string name="search">search</string>
+    <string name="searching">searching</string>
+    <string name="off">off</string>
+    <string name="my_first_application_for_android">My first application for Android</string>
+    <string name="tap_me">tap me</string>
+    <string name="Name">Name</string>
+    <string name="Phone_number">Phone number</string>
+    <string name="Email">E mail</string>
+    <string name="Serial_number">Serial number</string>
+    <string name="Password">Password</string>
+    <string name="String_1">String 1</string>
+
 </resources>
